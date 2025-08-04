@@ -1,0 +1,46 @@
+# Fra gitignore.io sin standard Java-liste
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE-spesifikke filer
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# Byggmapper (Maven/Gradle)
+target/
+build/
+out/
+/target
+
+# OS-spesifikke filer
+.DS_Store
+Thumbs.db
+target/classes/import_data.class
+target/classes/task_1_bubblesort_nonoptimised.class
+target/classes/task_1_bubblesort_optimised.class
+target/classes/task_2_insertionsort.class
+target/classes/task_3_mergesort.class
+target/classes/task_4_1_quicksort.class
+target/classes/task_4_2_quicksort.class
+target/classes/task_4_3_quicksort.class
+target/classes/worldcities.csv
